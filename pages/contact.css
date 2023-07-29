@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+body{
+    background-color: rgb(252, 250, 247);
+    font-family: sans-serif;
+    overflow-x: hidden;
+    display: flex;
+    flex-wrap: wrap;
+}
+ h2{
+    color: orange;
+    margin-bottom: 10px;
+}
+.choco{
+    position: relative;
+    left: 45rem;
+   border-image-width: 10px;
+}
+.contact-box{
+    width: 500px;
+    /* background-color: rgb(252, 250, 247); */
+    /* box-shadow: 0 0 20px 0 #999; */
+    position: absolute;
+    top: 55%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+}
+form{
+    margin-top: 35px;
+    margin-bottom: 50px;
+}
+.input-field{
+width: 400px;
+height: 40px;
+margin-top: 20px;
+padding-left: 10px;
+padding-right: 10px;
+border: 1px solid #777;
+border-radius: 14px;
+outline: none;
+}
+.textarea-field{
+    height: 150px;
+    padding-top: 10px;
+}
+.btn{
+    border-radius: 0px;
+    color: #777;
+    width: 419px;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: #1f0303;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+@media all and (268px <= width <= 768px) {
+    body{
+        overflow-x: hidden;
+    }
+}
+.footer{
+    position: relative;
+    top: 500px;
+}
+.container{
+    margin-top: 200px;
+}
