@@ -97,6 +97,11 @@ transition: all 0.5s ease-in-out;
     color: blue;
     background-color: #ffffff;
 }
+.copyright{
+    text-align: center;
+    padding-right: 150px;
+    padding-top: 120px;
+}
 @media(max-width: 767px){
     .footer-col{
         width: 50%;
