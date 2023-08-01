@@ -1,0 +1,258 @@
+@font-face {
+    font-family: Tektur;
+    src: url(/static/Tektur_SemiCondensed-Regular.ttf);
+  }
+
+@font-face {
+    font-family: gar;
+    src: url(/static/Yellow\ Ginger.ttf);
+}
+
+@font-face {
+    font-family: Baby-text;
+    src: url(/static/AppetizersRDemoRegular.ttf);
+}
+
+
+  *{
+    color: rgb(137,37,51);
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+
+
+  }
+  ;
+
+  body{
+    font-family: Tektur;
+  
+  }
+
+
+  .banner{
+    display: flex;
+    height: 90vh;
+    width: 100%;
+    position: absolute;
+    top: 15.4%;
+  
+
+  }
+
+  .banner-image{
+    position: relative;
+    width: 57%;
+    height: 100%;
+    background-image: url(/src/images/cakepound.jpg);
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    text-align: center
+  }
+
+  .banner-image>h1{
+    position: absolute;
+    bottom: 9rem;
+    right: 10rem;
+    color: whitesmoke;
+    font-family: Baby-text;
+    font-size: 4rem;
+    font-weight: bolder;
+
+  }
+  .banner-left-for-description{
+    width: 43%;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1;
+    padding: 5rem;
+    overflow: hidden;
+    background-color: rgb(242,233,219);
+   
+    
+  } 
+
+  .banner-description{
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+    text-align: center;
+    position: relative;
+    background-color: rgb(242,233,219);
+  }
+
+
+
+
+
+  
+  .pic-ctn {
+    width: 100%;
+    height: 200px;
+    position: relative;
+  }
+  
+  @keyframes display {
+    0% {
+      transform: translateX(200px);
+      opacity: 0;
+    }
+    10% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    20% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    30% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(-200px);
+      opacity: 0;
+    }
+  }
+  
+  /* .pic-ctn {
+    position: relative;
+    width: 100vw;
+    height: 300px;
+    margin-top: 15vh;
+
+  } */
+  
+  .pic-ctn > div {
+    position: absolute;
+    left: 20%;
+    top: 0;
+    opacity: 0;
+    animation: display 10s infinite;
+    width: fit-content;
+    height: fit-content;
+    
+  }
+
+  .pic-ctn>div>h1{
+    font-size: 3rem;
+  }
+
+  .pic-ctn>div>img{
+    width: 13rem;
+    height: 13rem;
+    margin: auto;
+  }
+
+
+  
+  .slider:nth-child(2) {
+    animation-delay: 2s;
+  }
+  .slider:nth-child(3) {
+    animation-delay: 4s;
+  }
+  .slider:nth-child(4) {
+    animation-delay: 6s;
+  }
+  .slider:nth-child(5) {
+    animation-delay: 8s;
+  }
+  .slider:nth-child(6) {
+    animation-delay: 10s;
+  }
+
+  .pic-ctn-btn{
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: white;
+    padding: 0.5rem;
+    border:solid 0.5rem;
+    border-radius: 0.8rem;
+    position: absolute;
+    bottom: 10%;
+    right: 24%;
+  }
+
+
+  /* .slider1{
+    position: absolute;
+
+    animation-name: autoScrollHorizontally;
+
+   
+    
+  }
+  .slider2{
+    position: absolute;
+
+    left: 100%;
+    animation: autoScrollHorizontally  ;
+    animation-duration: 5s;
+    
+    animation-iteration-count:infinite;
+    
+    
+  }
+
+  .slider3{
+    position: absolute;
+    left: 200%;
+    background-color: aqua;
+    animation: autoScrollHorizontally  ;
+    animation-duration: 1s;
+    animation-iteration-count:infinite;
+    
+  } */
+
+  /* .descriptions1{
+    
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
+
+  .cake-image{
+    height: 50%;
+    width: 50%;
+    background-image: url(/src/images/9d2593780fe22eba7acf1ea6e9e57110-removebg-preview.png);
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: auto;
+    animation: autoScrollVertically 20s ;
+  } */
+
+
+  @keyframes autoScrollHorizontally {
+
+     to{
+      left: 0%;
+     }
+    
+
+    
+  }
+
+
+ 
+  
+
+
+  .banner-description>.descriptions>h1{
+    font-size: 3rem;
+  }
+  .banner-description>.descriptions>button{
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: white;
+    padding: 1rem;
+    border:solid 0.5rem;
+    border-radius: 0.8rem;
+
+  }
+
+
+
+  
