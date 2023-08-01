@@ -8,6 +8,9 @@ body{
     margin: 0;
     box-sizing: border-box;
 }
+.flow{
+    overflow-x: hidden;
+}
 .container{
  padding: 30px;
  justify-content: space-around;
@@ -80,7 +83,7 @@ ul li a{
 }
 .footer-col .social-links a{
 display: inline-block;
-height: 0px;
+height: 30px;
 width: 30px;
 background-color: rgb(59, 24, 24);
 /* margin: 0 10px 10px 0; */
@@ -92,6 +95,9 @@ line-height: 0px;
 border-radius: 50%;
 color: white;
 transition: all 0.5s ease-in-out;
+}
+.footer-col .social-links .fab{
+margin: 0 0 6px 0;
 }
 .footer-col .social-links a:hover{
     color: blue;
