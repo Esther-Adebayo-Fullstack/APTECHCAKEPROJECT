@@ -21,7 +21,7 @@
     background-repeat: no-repeat;
   }
   .franchise h1{
-    color: white;
+    color: rgb(242,233,219);
     display: flex;
     position: relative;
     top: -250px;
@@ -31,14 +31,12 @@
    
   }
 
-
-
-
-
 nav {
-  /* float: right; */
-  /* flex-wrap: wrap; */
+  float: right; 
+  flex-wrap: wrap;
   margin: auto;
+  padding-bottom: -200px;
+  justify-content: space-around;
 }
 nav ul {
   list-style: none;
@@ -58,6 +56,7 @@ nav ul li {
 nav ul li a {
   display: block;
   padding: 0 20px;
+  
   
   line-height: 70px;
   background: #ffffff;
@@ -80,27 +79,88 @@ nav ul li ul li a {
   padding: 15px;
   line-height: 20px;
 }
-
-.thriving{
- position: relative;
-  bottom: 85px;
-  background-color: rgb(233, 235, 216);
-  flex-wrap: wrap;
-  padding-left: 150px;
-  font-size: 20px;
+.section3{
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  height:50rem ;
+  padding: 5rem;
+  background-color: rgb(242,233,219);
+  justify-content: space-around;
+  align-items: center;
   
 }
-.thriving h2{
+
+.section3>.description{
+  width: 100%;
+  padding: 8rem;
+}
+.section3>.description>h2{
+  font-size: 2rem;
+  padding: 3rem;
+  margin-left: -30px;
   color: red;
-  flex-wrap: wrap;
+ 
 }
-.fold img{
- position: relative;
- bottom: 350px;
- width: 50%;
- left: 490px;
- height: 70vh;
+.section3>.description>p{
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  padding: 0 5 rem;
 }
-.WHY{
-  padding-top: 550px;
+
+.section3-image{
+  /* background-image: url(/pages/pintchef1.jpg); */
+  width: 80%;
+  height: 100%;
+  margin-right: 4rem;
+  background-repeat: no-repeat;
+}
+
+.why{
+  background-color: #fff;
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  padding: 10rem;
+}
+
+.section4{
+  position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+  height:50rem ;
+  padding: 5rem;
+  background-color: rgb(202, 224, 222);
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.section4>.description{
+  width: 100%;
+  padding: 8rem;
+}
+.section4>.description>h2{
+  font-size: 2rem;
+  padding: 3rem;
+  margin-left: -30px;
+  color: red;
+ 
+}
+.section4>.description>p{
+  font-size: 1.5rem;
+  line-height: 1.5rem;
+  padding: 0 5 rem;
+}
+
+ .image2{
+  /* background-image: url(/pages/pintchef1.jpg); */
+  width: 80%;
+  height: 100%;
+  margin-right: 4rem;
+  background-repeat: no-repeat;
+  position: relative;
+  top: -200px;
 }
