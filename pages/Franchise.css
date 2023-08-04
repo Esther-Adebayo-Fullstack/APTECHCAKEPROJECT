@@ -3,11 +3,104 @@
     padding: 0;
     box-sizing: border-box;
 }
-.banner-image img{
+@media all and (268px <= width <= 768px) {
+  body{
+      overflow-x: hidden;
+      max-width: fit-content;
+  }
+}
+/* .container .flow{
+    overflow-x: hidden;
+} */
+
+.container img{
     position: relative;
-    background-image: url(/src/images/men@work.jpg);
     width: 100%;
-    height: 400px;
+    height: 500px;
     background-position: center;
     background-repeat: no-repeat;
+  }
+  .franchise h1{
+    color: white;
+    display: flex;
+    position: relative;
+    top: -250px;
+    font-size: 70px;
+    left: 150px;
+    flex-wrap: wrap;
+   
+  }
+
+
+
+
+
+nav {
+  /* float: right; */
+  /* flex-wrap: wrap; */
+  margin: auto;
+}
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+/* .nav-list .now{
+  background-color: red;
+} */
+nav ul li {
+  float: left;
+  position: relative;
+  top: -150px;
+  
+  /* left: -20px; */
+}
+nav ul li a {
+  display: block;
+  padding: 0 20px;
+  
+  line-height: 70px;
+  background: #ffffff;
+  color: #7B3F00;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  background: #f2f2f2;
+  color: #fb5958;
+  
+}
+nav ul li a:not(:only-child):after {
+  padding-left: 4px;
+  content: ' ▾';
+}
+nav ul li ul li {
+  min-width: 190px;
+}
+nav ul li ul li a {
+  padding: 15px;
+  line-height: 20px;
+}
+
+.thriving{
+ position: relative;
+  bottom: 85px;
+  background-color: rgb(233, 235, 216);
+  flex-wrap: wrap;
+  padding-left: 150px;
+  font-size: 20px;
+  
+}
+.thriving h2{
+  color: red;
+  flex-wrap: wrap;
+}
+.fold img{
+ position: relative;
+ bottom: 350px;
+ width: 50%;
+ left: 490px;
+ height: 70vh;
+}
+.WHY{
+  padding-top: 550px;
 }
