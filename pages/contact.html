@@ -6,30 +6,78 @@
     <title>contact Document</title>
     <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="navbar.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- <link rel="stylesheet" href="footer.css"> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="/src/jquery.js"></script>
+    <title>Document</title>
 </head>
 <body>
-    
-    <div class="contact-box">
-        <div>
-            <h2>Contact Us</h2>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br>Officia saepe libero pariatur a aliquid labore!</p>
-        </div>
-        <form>
-            <input type="text" class="input-field" placeholder="Name">
-            <input type="email" class="input-field" placeholder="Email">
-            <input type="text" class="input-field" placeholder="website">
-           <textarea type="text" class="input-field textarea-field" placeholder="Message">
-            </textarea>
-            <button type="button" class="btn">Send</button>
-        </form>
+   <!-- ://www.taniarascia.com/responsive-dropdown-navigation-bar/ -->
 
+<section class="navigation">
+  <div class="nav-container" id="navbar">
+    <div class="brand">
+      <a href="index.html">THE CAKE</a>
     </div>
-    <div class="choco">
+    <nav>
+      <div class="nav-mobile">
+        <a id="nav-toggle" href="#!"><span></span></a>
+      </div>
+      <ul class="nav-list">
+        <!-- Setting the links to #! will ensure that no action takes place on click. -->
+        <li><a href="#" class="menu-item">Home</a></li>
+        <li><a href="/pages/About us.htm" class="menu-item">About Us</a></li>
+        <li><a href="products.html" class="menu-item">Products By Event</a>
+          <ul class="nav-dropdown">
+            <li><a href="#!">Birthday</a></li>
+            <li><a href="#!">Anniversary</a></li>
+            <li><a href="#!">Engagement</a></li>
+            <li><a href="">Others</a></li>
+          </ul>
+        </li>
+        <li><a href="contact.html" class="menu-item">Contact</a></li>
+        <li><a href="#!" >Locations</a></li>
+      </ul>
+    </nav>
+  </div>
+</section>
+    <div class="contact-box">
+      <div class="choco">
         <img src="cake1.jpg">
     </div>
+    <div>
+      <div>
+        <h2>Contact Us</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. <br>Officia saepe libero pariatur a aliquid labore!</p>
+    </div>
+    <form>
+        <label for="NAME">full Name</label>
+        <br>
+        <input type="text" class="input-field" placeholder="Name">
+        <br>
+        <label for="NAME">full Name</label>
+        <br>
+        <input type="email" class="input-field" placeholder="Email">
+        <br>
+        <label for="NAME">full Name</label>
+        <br>
+        <input type="text" class="input-field" placeholder="website">
+        <br>
+        <label for="NAME">full Name</label>
+        <br>
+       <textarea type="text" class="input-field textarea-field" placeholder="Message">
+        </textarea>
+        <br>
+        <button type="button" class="btn">Send</button>
+    </form>
+
+    </div>
+        
+
+    </div>
+   
 
     <footer>
         <section>
@@ -63,11 +111,11 @@
                <li><a href="">Chnage Location</a></li>
                <li><a href="">Privacy</a></li>
                <li><a href="">Terms & Conditions</a></li>
-               <li><a href="">Sitemap</a></li>
+               <li><a href="sitemap.html">Sitemap</a></li>
             </ul>
       
       
-            <h4>© 2023 COBS Bread USA. All rights reserved.</h4>
+            <h4>© 2023 The Cake Nigeria. All rights reserved.</h4>
       
           </div>
       

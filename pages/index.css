@@ -20,6 +20,7 @@
     margin: 0;
     box-sizing: border-box;
     padding: 0;
+    /* font-family: 'Lobster', cursive; */
   
     
 
@@ -28,7 +29,7 @@
   
 
   body{
-    font-family: Tektur;
+    font-family: 'Lobster', cursive;
   
   }
 
@@ -264,7 +265,7 @@
     padding-bottom: 0;
   }
   .section3>.description>h1{
-    font-size: 3rem;
+    font-size: 2rem;
     padding:  2rem;
     padding-bottom: 1rem;
     color: rgb(134,38,51);
@@ -488,6 +489,8 @@
   width: 100%;
   padding: 2rem;
   padding-top: 5rem;
+  border-top: solid;
+  margin-top: 2rem;
   
   
 }
@@ -777,6 +780,58 @@
   
       
     }
+    .section2{
+      display: none;
+      margin-bottom: 2rem;
+      padding: 4rem;
+      
+    }
+     
+    .section2>div{
+      display: flex;
+      width: fit-content;
+      margin: auto;
+      background-color: bisque;
+     
+     
+     }
+  
+     .section2>div>.description{
+      
+     }
+  
+     .section2>div>.description>.top-hider{
+        height: 3rem;
+        background-color: white;
+        
+     }
+     .section2>div>.description>.description-text{
+      margin: 5rem;
+     }
+  
+     .section2>div>.description>.description-text>h1{
+      font-size: 3rem;
+     }
+  
+  
+     .section2>div>.description>.description-text>p{
+      font-size: 1.5rem;
+      height: 100%;
+  
+     }
+  
+     .dots{
+      display: block;
+     }
+  
+     .dots>div{
+      width: 1rem;
+      height: 1rem;
+      border-radius: 0.5rem;
+      background-color: brown;
+      margin: 0.2rem;
+     }
+  
   
    
 
@@ -791,6 +846,7 @@
       justify-content: space-around;
       align-items: center;
       position: static;
+      margin-top: 90rem;
     }
 
     
@@ -800,24 +856,299 @@
     height: fit-content;
   }
   .section3>.description>h1{
-    font-size: 1rem;
+    font-size: 2rem;
     padding:  0rem;
   }
   .section3>.description>p{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     line-height: 1rem;
-    padding: 0 0rem;
+    padding: 2rem;
   }
 
   .section3-image{
     background-image: url(/pages/pintchef1.jpg);
     width: 100%;
-    height: 20rem;
+    height: 30rem;
     margin-left: 0rem;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     background-size: cover;
   }
+
+  .section4{
+    background-color: rgb(170,128,102);
+    margin: 0rem;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2rem;
+    position: static;
+  
+  }
+   
+  .section4>.description{
+       width: 100%;
+       padding: 1rem;
+
+       
+  }
+
+
+  .section4>.description>h1{
+      font-size: 2.5rem;
+      font-weight: bolder;
+      padding-bottom: 1rem;
+      color: rgb(253,208,134);
+  }
+
+
+  .section4>.description>p{
+      font-size: 1rem;
+      line-height: 2rem;
+      color: white;
+  }
+
+  
+
+  .section4-image{
+    background-image: url(/src/images/bakerbynture.jpg);
+    width: 100%;
+    height: 30rem;
+    background-repeat: no-repeat;
+    background-position: cover;
+    position: static;
+    right: -5%;
+    top:-10%;
+  }
+
+  .section5{
+    background-color: rgb(170,128,102);
+    margin: 0rem;
+    margin-top: 4rem;
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 2rem;
+    position: static;
+  
+  }
+
+  .section5-image{
+    background-image: url(/src/images/vanilla.jpg);
+    width: 100%;
+    height: 30rem;
+    background-repeat: no-repeat;
+    background-position: cover;
+    position: static;
+   
+  }
+  .section5-description{
+    font-size: 1rem;
+    line-height: 2rem;
+    color: white;
+    width: 100%;
+    position: static;
+    padding-top: 5rem;
+}
+
+
+.section5-description>h1{
+  transform: scaleY(2);
+  margin-bottom: 1.5rem;
+}
+
+.section5-description>p{
+  color: white;
+}
+
+.section6-link{
+  text-decoration: none;
+
+}
+
+.what-is-happening{
+  font-size: 2rem;
+  color: orangered;
+  padding: 1rem;
+  padding-left: 2rem;
+  font-family: gar;
+}
+
+.section6{
+  display: flex;
+  width: 100%;
+  height: 25rem;
+  justify-content: space-between;
+  padding: 0.5rem;
+  padding-bottom: 0;
+  margin-bottom: 6rem;
+  
+
+}
+
+
+
+
+.section6>div>div{
+  align-items: center;
+  padding-top: 7rem;
+  padding: auto;
+  text-align: center;
+  width: 11rem;
+  height: 100%;
+  color: rgba(255, 255, 255, 0.);
+  transition: all 2s;
+ 
+  
+}
+.section6>div>div:hover{
+  background-color: rgb(255, 255, 255, 0.5);
+}
+
+
+.section6-a>*>*, .section6-b>*>*{
+  padding: 1rem;
+  color: white;
+  font-size: 1.5rem;
+  width: fit-content;
+  margin: auto;
+
+}
+
+
+
+
+.section6-a{
+  background-image: url(/src/images/cakebuscuit2.jpg); 
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.section6-b{
+  background-image: url(/src/images/ff1.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+
+.section7-banner{
+     width: 100%;
+     height: 34rem;
+     background-image: url(/src/images/land2.jpg);
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-position: center;
+}
+
+
+.section7-banner{
+  text-align: center;
+}
+
+.section7-banner>.content{
+  width: 100%;
+  height: 100%;
+  padding-top: 12rem;
+  background-color:rgb(0, 0, 0, 0.4)
+}
+
+.section7-banner>.content>h1{
+  font-size: 3rem;
+  color: whitesmoke;
+  margin-bottom: 1rem;
+}
+
+
+.section7-banner>.content>button{
+    padding: 2rem 4rem;
+    font-size: 1.3rem;
+    font-family: Tektur;
+    background-color: whitesmoke;
+    border: solid 0.6rem;
+
+}
+
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 2rem;
+  padding-top: 5rem;
+  border-top: solid;
+  margin-top: 1rem;
+  font-family: 'Times New Roman', Times, serif;
+  
+
+  
+  
+}
+
+.footer>.left{
+  text-align: left;
+  align-items: start;
+
+ 
+}
+
+
+.footer>.right{
+
+
+}
+.footer>.right>.logo>img{
+    width: 5rem;
+}
+
+
+.footer>.left>ul{
+  list-style-type: none;
+  margin-bottom: 1rem;
+}
+
+.footer>.left>ul>li>a, .footer>.left>ul>li {
+  text-decoration: none;
+  padding-bottom: 0.5rem;
+}
+
+.footer-icons{
+  display: flex;
+  
+}
+
+
+.footer-icons>img{
+  width: 2rem;
+  height: 2rem;
+  border: solid rgb(113, 9, 9, 0.5);
+
+}
+
+.last-footer-row{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.second-list{
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+
+.second-list>li{
+  margin: 0.5rem;
+}
+
+.flag{
+  width: 2rem;
+}
+
   
   
 
